@@ -7,6 +7,12 @@ title {
 }
 h1 {
     color: #FFDA56;
+    margin: 15px;
+}
+h2 {
+    color: #FFDA56;
+    margin: 15px;
+    text-align: center;
 }
 p {
     background-color: #111111;
