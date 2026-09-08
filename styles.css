@@ -23,6 +23,7 @@ p {
 table {
     border: 1px solid #FFDA56;
     table-layout: fixed;
+    border-collapse: separate; 
 }
 th, td {
     border: 1px solid #FFDA56;
