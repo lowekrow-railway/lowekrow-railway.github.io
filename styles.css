@@ -27,7 +27,9 @@ p {
 }
 
 table {
-    border: 1px solid #FFDA56;
+    border: 1px collapse #FFDA56;
+    border-collapse: collapse;
+    padding: 30px;
     margin: 30px;
 }
 th, td {
