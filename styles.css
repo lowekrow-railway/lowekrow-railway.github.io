@@ -130,3 +130,16 @@ a:active {
     align-items: center;
     height: 100px;
 }
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+.hcenter {
+    display: flex;
+    justify-content: center;
+}
+.acenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
