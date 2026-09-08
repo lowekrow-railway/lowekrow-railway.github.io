@@ -22,8 +22,6 @@ p {
 
 table {
     border: 1px solid #FFDA56;
-    padding: 30px;
-    margin: 15px;
     table-layout: fixed;
 }
 th, td {
