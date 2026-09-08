@@ -21,6 +21,30 @@ p {
     font-size: 200%;
 }
 
+a:link {
+  color: #FFDA56;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FFDA56;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #111111;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #111111;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .vcenter150b {
     display: flex;
     align-items: center;
