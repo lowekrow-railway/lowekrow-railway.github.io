@@ -1,16 +1,27 @@
 body {
     background-color: #A02E2B;
 }
+
 h1 {
     color: #FFDA56;
     margin: 15px;
     font-size: 325%;
 }
 h2 {
+    color: #111111;
+    margin: 15px;
+    font-size: 200%;
+    text-decoration: underline;
+}
+h3 {
     color: #FFDA56;
     margin: 15px;
     font-size: 200%;
-    text-align: center;
+}
+h6 {
+    color: #FFDA56;
+    margin: 15px;
+    font-size: 200%;
 }
 p {
     background-color: #111111;
@@ -26,19 +37,16 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
-
 a:visited {
   color: #FFDA56;
   background-color: transparent;
   text-decoration: none;
 }
-
 a:hover {
   color: #111111;
   background-color: transparent;
   text-decoration: underline;
 }
-
 a:active {
   color: #111111;
   background-color: transparent;
