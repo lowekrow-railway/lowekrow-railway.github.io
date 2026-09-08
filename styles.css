@@ -2,8 +2,8 @@ body {
     background-color: #A02E2B;
 }
 
-rightfloat {
-    float: right;
+.rightfloat {
+    margin-left: auto
 }
 
 h1 {
