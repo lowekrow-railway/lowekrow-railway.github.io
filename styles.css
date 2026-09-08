@@ -23,14 +23,14 @@ p {
 .vcenter {
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 150px;
     border: 5px solid #FFDA56; 
     font-size: 200%;
 }
 .hcenter {
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: 150px;
     border: 5px solid #FFDA56; 
     font-size: 200%;
 }
@@ -38,7 +38,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 150px;
     border: 5px solid #FFDA56; 
     font-size: 200%;
 }
