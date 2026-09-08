@@ -34,25 +34,33 @@ p {
     font-size: 200%;
 }
 
+table, th, td {
+    border: 1px solid #FFDA56;
+}
+
+th, td {
+    background-color: #111111;
+}
+
 a:link {
-  color: #FFDA56;
-  background-color: transparent;
-  text-decoration: none;
+    color: #FFDA56;
+    background-color: transparent;
+    text-decoration: none;
 }
 a:visited {
-  color: #FFDA56;
-  background-color: transparent;
-  text-decoration: none;
+    color: #FFDA56;
+    background-color: transparent;
+    text-decoration: none;
 }
 a:hover {
-  color: #FFDA56;
-  background-color: transparent;
-  text-decoration: underline;
+    color: #FFDA56;
+    background-color: transparent;
+    text-decoration: underline;
 }
 a:active {
-  color: #111111;
-  background-color: transparent;
-  text-decoration: underline;
+    color: #111111;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 .rightfloat {
