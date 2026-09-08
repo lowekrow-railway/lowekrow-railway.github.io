@@ -2,6 +2,10 @@ body {
     background-color: #A02E2B;
 }
 
+rightfloat {
+    float: right;
+}
+
 h1 {
     color: #FFDA56;
     margin: 15px;
