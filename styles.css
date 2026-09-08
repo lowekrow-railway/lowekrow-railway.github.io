@@ -42,6 +42,9 @@ th, td {
     background-color: #111111;
     padding: 15px;
     margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a:link {
@@ -139,17 +142,4 @@ a:active {
     justify-content: center;
     align-items: center;
     height: 100px;
-}
-.vcenter {
-    display: flex;
-    align-items: center;
-}
-.hcenter {
-    display: flex;
-    justify-content: center;
-}
-.acenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
