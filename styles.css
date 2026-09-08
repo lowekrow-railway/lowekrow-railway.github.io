@@ -1,13 +1,10 @@
 body {
     background-color: #A02E2B;
 }
-title {
-    color: #FFDA56;
-    border: 5px solid #FFDA56;
-}
 h1 {
     color: #FFDA56;
     margin: 15px;
+    font-size: 400%;
 }
 h2 {
     color: #FFDA56;
