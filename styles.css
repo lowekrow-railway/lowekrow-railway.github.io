@@ -4,17 +4,20 @@ body {
 
 h1 {
     color: #FFDA56;
+    padding: 15px;
     margin: 15px;
     font-size: 325%;
 }
 h2 {
     color: #111111;
+    padding: 15px;
     margin: 15px;
     font-size: 200%;
     text-decoration: underline;
 }
 h3 {
     color: #FFDA56;
+    padding: 15px;
     margin: 15px;
     font-size: 200%;
 }
