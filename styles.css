@@ -36,8 +36,9 @@ p {
 
 table, th, td {
     border: 1px solid #FFDA56;
+    padding: 30px;
+    margin: 30px;
 }
-
 th, td {
     background-color: #111111;
 }
