@@ -2,16 +2,19 @@ body {
     background-color: #A02E2B;
 }
 title {
+    background-color: #111111;
     color: #FFDA56;
     border: 5px solid #FFDA56;
 }
 h1 {
+    background-color: #111111;
     color: #FFDA56;
 }
 p {
+    background-color: #111111;
     color: #FFDA56;
     border: 5px solid #FFDA56;
     padding: 30px;
-    margin: 50px;
-    font-size: 200%;
+    margin: 30px;
+    font-size: 300%;
 }
