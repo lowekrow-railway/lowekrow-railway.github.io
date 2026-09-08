@@ -43,7 +43,6 @@ th, td {
     background-color: #111111;
     padding: 15px;
     margin: 15px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
