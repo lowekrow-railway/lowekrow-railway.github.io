@@ -4,7 +4,7 @@ body {
 h1 {
     color: #FFDA56;
     margin: 15px;
-    font-size: 175%;
+    font-size: 250%;
 }
 h2 {
     color: #FFDA56;
@@ -20,41 +20,75 @@ p {
     margin: 30px;
     font-size: 200%;
 }
-.vcenter150 {
+
+.vcenter150b {
     display: flex;
     align-items: center;
     height: 150px;
     border: 5px solid #FFDA56; 
 }
-.hcenter150 {
+.hcenter150b {
     display: flex;
     justify-content: center;
     height: 150px;
     border: 5px solid #FFDA56; 
+}
+.acenter150b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border: 5px solid #FFDA56; 
+}
+.vcenter100b {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border: 5px solid #FFDA56; 
+}
+.hcenter100b {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    border: 5px solid #FFDA56; 
+}
+.acenter100b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 5px solid #FFDA56; 
+}
+
+.vcenter150 {
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+.hcenter150 {
+    display: flex;
+    justify-content: center;
+    height: 150px;
 }
 .acenter150 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 150px;
-    border: 5px solid #FFDA56; 
 }
 .vcenter100 {
     display: flex;
     align-items: center;
     height: 100px;
-    border: 5px solid #FFDA56; 
 }
 .hcenter100 {
     display: flex;
     justify-content: center;
     height: 100px;
-    border: 5px solid #FFDA56; 
 }
 .acenter100 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
-    border: 5px solid #FFDA56; 
 }
