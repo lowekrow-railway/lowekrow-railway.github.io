@@ -4,29 +4,18 @@ body {
 
 h1 {
     color: #FFDA56;
-    padding: 15px;
     margin: 15px;
     font-size: 325%;
 }
 h2 {
     color: #111111;
-    padding: 15px;
     margin: 15px;
     font-size: 200%;
     text-decoration: underline;
 }
 h3 {
     color: #FFDA56;
-    padding: 15px;
     margin: 15px;
-    font-size: 200%;
-}
-h4 {
-    background-color: #111111;
-    color: #FFDA56;
-    border: 5px solid #FFDA56;
-    padding: 30px;
-    margin: 30px;
     font-size: 200%;
 }
 
@@ -34,7 +23,7 @@ p {
     color: #FFDA56;
     padding: 30px;
     margin: 30px;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 table {
