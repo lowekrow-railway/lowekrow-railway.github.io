@@ -5,23 +5,12 @@ body {
 h1 {
     color: #FFDA56;
     margin: 15px;
-    font-size: 325%;
 }
 h2 {
     color: #111111;
     margin: 15px;
     font-size: 200%;
     text-decoration: underline;
-}
-h3 {
-    color: #FFDA56;
-    margin: 15px;
-    font-size: 200%;
-}
-h4 {
-    color: #FFDA56;
-    margin: 15px;
-    font-size: 150%;
 }
 
 p {
