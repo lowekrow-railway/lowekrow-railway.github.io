@@ -35,7 +35,9 @@ table {
     border: 1px collapse #FFDA56;
     border-collapse: collapse;
     padding: 30px;
-    margin: 30px;
+    margin: 0 auto;
+    width: 100%;
+    table-layout: fixed;
 }
 th, td {
     border: 1px solid #FFDA56;
