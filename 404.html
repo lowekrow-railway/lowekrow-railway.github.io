@@ -21,30 +21,14 @@
     </div>
 
     <div class="acenter" style="min-height: 100px;">
-        <p><script src="randomsayings.js" defer></script></p>
+        <p id="random_saying"></p>
     </div>
+
+    <script src="randomsayings.js" defer></script>
 
     <div class="acenter" style="min-height: 100px;">
         <a href="https://lowekrow-railway.github.io/home"><img src="/images/I Think I Miss My Wife.png" style="width:96px;height:96x;"><img></a>  
     </div>
-
-    <script> 
-        // pick a random saying every time the user visits/reloads the page
-        const sayings =
-        [
-            "98462",
-            "dude i miss my wife",
-            "staff bbq tomorrow",
-            "Long before time had a name, the First Spinjitzu Master created Ninjago using four elemental weapons.",
-            "This is a paragraph.",
-        ];
-
-        // random number is generated, limit changes automatically depending on sayings length
-        const randomIndex = Math.floor(Math.random() * sayings.length);
-
-        // place the selected number/saying into the random_saying section
-        document.getElementById("random_saying").innerText = sayings[randomIndex];
-    </script>
 
 </body>
 </html>
