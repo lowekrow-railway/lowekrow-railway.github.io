@@ -23,13 +23,10 @@ p {
 }
 
 table {
-    border: 1px solid #FFDA56;
     table-layout: fixed;
     border-collapse: separate; 
 }
 th, td {
-    border: 1px solid #FFDA56;
-    background-color: #111111;
     padding: 15px;
     margin: 15px;
     justify-content: center;
