@@ -107,7 +107,7 @@ a:active {
   display: grid;
   gap: 15px;
   padding: 5px;
-  height: 400px; 
+  height: 525px; 
   overflow-y: auto; 
 }
 .container div {
