@@ -9,7 +9,7 @@ function sortRoster(criteria, direction) {
     const grid = document.getElementById('engineroster');
     
     // Grab all grid cards
-    const cards = Array.from(grid.querySelectorAll('.enginecard'));
+    const cards = Array.from(grid.querySelectorAll('.gridcard'));
     
     // Grab the fixed end of the grid
     const fixedcard = grid.querySelector('.endcard');

@@ -14,6 +14,18 @@ h2 {
     font-size: 175%;
     text-decoration: underline;
 }
+h6 {
+    color: #FFDA56;
+    margin: 10px;
+    background-color:#A02E2B;
+    border: 5px solid #111111;
+    container-type: inline-size; 
+    font-size: clamp(75%, 150%, 225%);
+    overflow-wrap: break-word; 
+    width: 250px; 
+    height:75px; 
+    text-align: center;
+}
 
 p {
     color: #FFDA56;
@@ -31,6 +43,15 @@ th, td {
     margin: 15px;
     justify-content: center;
     align-items: center;
+}
+
+button {
+    background-color: #111111; 
+    border: 5px solid #FFDA56;
+    color: #FFDA56;
+    padding: 5px;
+    margin: 5px;
+    font-size: 150%;
 }
 
 a:link {
@@ -100,4 +121,9 @@ a:active {
 .container div.footer {
   grid-area: footer;
   text-align: center;  
+}
+
+.gridcard {
+    background-color: #A02E2B; 
+    border: 5px solid #FFDA56;
 }
