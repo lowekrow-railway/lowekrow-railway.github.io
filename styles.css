@@ -104,28 +104,28 @@ a:active {
 }
 
 .container {
-  display: grid;
-  gap: 15px;
-  padding: 5px;
-  height: 525px; 
-  overflow-y: auto; 
+    display: grid;
+    gap: 15px;
+    padding: 5px;
+    height: 550px; 
+    overflow-y: auto; 
 }
 .container div {
-  padding: 10px;
+    padding: 10px;
 }
 .container div.header {
-  grid-area: header;
-  text-align: center;
+    grid-area: header;
+    text-align: center;
 }
 .container div.menu {
-  grid-area: menu;
+    grid-area: menu;
 }
 .container div.content {
-  grid-area: content;
+    grid-area: content;
 }
 .container div.footer {
-  grid-area: footer;
-  text-align: center;  
+    grid-area: footer;
+    text-align: center;  
 }
 
 .gridcard {
