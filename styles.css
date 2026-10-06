@@ -48,10 +48,11 @@ th, td {
 button {
     background-color: #111111; 
     border: 5px solid #FFDA56;
-    color: #FFDA56;
+    color: white;
     padding: 5px;
     margin: 5px;
     font-size: 150%;
+    transition-duration: 0.4s;
 }
 
 a:link {
