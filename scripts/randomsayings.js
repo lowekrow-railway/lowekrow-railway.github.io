@@ -5,6 +5,7 @@ const randomsayings =
         "staff bbq tomorrow",
         "Long before time had a name, the First Spinjitzu Master created Ninjago using four elemental weapons.",
         "This is a paragraph.",
+        "this is my first time properly making a site, ain't that neat?"
     ];
 
     // random number is generated, limit changes automatically depending on sayings length
