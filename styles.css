@@ -79,11 +79,6 @@ a:active {
 
 .container {
   display: grid;
-  grid-template-areas:
-    "header header"
-    "menu content"
-    "footer footer";
-  grid-template-columns: 1fr 3fr;
   gap: 15px;
   padding: 5px;
 }
