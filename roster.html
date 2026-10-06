@@ -6,6 +6,8 @@
 </head>
 <body>
 
+    <script src="/scripts/gridloaders/rostergridloader.js" defer></script>
+
     <title>Roster - The Lowekrow Railway</title>
 
     <div class="floater" style="background-color:#111111">
@@ -35,13 +37,12 @@
         <img src="/images/ANIMATEDLW.gif" style="width:48px; height:48px;"><img>
     </div>
 
-    <div class="container" style="background-color:#FFDA56; grid-template-areas:menu content; grid-template-columns: 1fr 7fr;">
-        <div class="menu">
+    <div class="container" style="background-color:#FFDA56; border: 5px solid #111111; grid-template-areas:menu content; grid-template-columns: 1fr 7fr;">
+        <div class="menu" style="background-color:#111111;">
 
         </div>
-        <div class="content" style="background-color:#111111;">
-            <div class="container" style="background-color:#111111; display: grid; gap: 15px; grid-template-columns: auto auto auto auto auto;">
-                <iframe src="/tables&grids/rostergrid.html"></iframe>
+        <div class="content" style="background-color:#A02E2B;">
+            <div class="container" id="itemroster" style="background-color:#111111; display: grid; gap: 15px; grid-template-columns: auto auto auto auto auto;">
             </div>
         </div>
     </div>

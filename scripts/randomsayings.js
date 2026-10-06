@@ -8,8 +8,8 @@ const randomsayings =
         "this is my first time properly making a site, ain't that neat?"
     ];
 
-    // random number is generated, limit changes automatically depending on sayings length
+    // Random number is generated, limit changes automatically depending on sayings length
     const randomIndex = Math.floor(Math.random() * randomsayings.length);
 
-    // place the respective selected saying into the random_saying section
+    // Place the respective selected saying into the random_saying section
     document.getElementById("random_saying").innerText = randomsayings[randomIndex];
