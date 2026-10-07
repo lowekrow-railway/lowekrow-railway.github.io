@@ -22,7 +22,7 @@ h6 {
     container-type: inline-size; 
     font-size: clamp(75%, 150%, 225%);
     overflow-wrap: break-word; 
-    width: 300px; 
+    width: 250px; 
     height: 75px; 
     text-align: center;
 }
