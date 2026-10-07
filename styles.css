@@ -105,12 +105,12 @@ a:active {
 
 .container {
     display: grid;
-    gap: 15px;
+    gap: 10px;
     padding: 5px;
     overflow-y: auto; 
 }
 .container div {
-    padding: 15px;
+    padding: 10px;
 }
 .container div.header {
     grid-area: header;
