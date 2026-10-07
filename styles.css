@@ -17,8 +17,8 @@ h2 {
 h6 {
     color: #FFDA56;
     margin: 10px;
-    background-color:#A02E2B;
-    border: 5px solid #111111;
+    background-color:#111111;
+    border: 5px solid #FFDA56;
     container-type: inline-size; 
     font-size: clamp(75%, 150%, 225%);
     overflow-wrap: break-word; 
