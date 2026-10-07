@@ -41,18 +41,20 @@
         <h1 style="font-size: 250%;">Engines!</h1>
     </div>
 
-    <div class="vcenter" style="min-height: 100px;">
-        <h1 style="color: #FFDA56;">Sort By:</h1>
-        <button class="acenter" style="width: 225px;" onclick="sortRoster('name', 'asc')">Name (A-Z)</button>
-        <button class="acenter" style="width: 225px;" onclick="sortRoster('name', 'desc')">Name (Z-A)</button>
-        <button class="acenter" style="width: 225px;" onclick="sortRoster('origin', 'asc')">Origin (A-Z)</button>
-        <button class="acenter" style="width: 225px;" onclick="sortRoster('origin', 'desc')">Origin (Z-A)</button>
-        <button class="acenter" style="width: 225px;" onclick="sortRoster('wheel', 'asc')">Wheel Config</button>
+    <div class="hcenter" style="min-height: 100px;">
+        <div class="vcenter" style="min-height: 100px;">
+            <h1 style="color: #FFDA56;">Sort By:</h1>
+            <button class="acenter" style="width: 225px;" onclick="sortRoster('name', 'asc')">Name (A-Z)</button>
+            <button class="acenter" style="width: 225px;" onclick="sortRoster('name', 'desc')">Name (Z-A)</button>
+            <button class="acenter" style="width: 225px;" onclick="sortRoster('origin', 'asc')">Origin (A-Z)</button>
+            <button class="acenter" style="width: 225px;" onclick="sortRoster('origin', 'desc')">Origin (Z-A)</button>
+            <button class="acenter" style="width: 225px;" onclick="sortRoster('wheel', 'asc')">Wheel Config</button>
+        </div>
     </div>
         
-    <div class="container" style="height: 550px; background-color:#FFDA56; border: 5px solid #111111; grid-template-areas:'content'; grid-template-columns: 1fr 3fr;">
+    <div class="container" style="height: 550px; background-color:#FFDA56; border: 5px solid #111111; grid-template-areas:'content'; grid-template-columns: auto;">
         <div class="content" style="background-color:#A02E2B; border: 5px solid #111111;">
-            <div class="container" id="engineroster" style="height: 500px; background-color:#111111; display: grid; gap: 15px; grid-template-columns: auto auto auto auto ;">
+            <div class="container" id="engineroster" style="height: 500px; background-color:#111111; grid-template-columns: auto auto auto auto ;">
             </div>
         </div>
     </div>
