@@ -1,19 +1,21 @@
-// Fetch the separate grid contents file
+// Build all requested grids on page and sort them all by name
 document.querySelectorAll('[data-source]').forEach(container => {
     const source = container.getAttribute('data-source');
     const containerId = container.id;
     
+    // Display respective grids in their right spots
     fetch(source)
     .then(response => response.text())
     .then(data => {
     document.getElementById(containerId).innerHTML = data;
 
-    // Call immediately after the grid content loads to sort by name on initialization
-        sortRoster(containerId, 'name', 'asc');
+    // Sort grids by name on initialization
+        sortGrid(containerId, 'name', 'asc');
     });
 });
 
-function sortRoster(containerId, criteria, direction) {
+function sortGrid(containerId, criteria, direction) {
+    // Grab grid that will be sorted
     const grid = document.getElementById(containerId);
     
     // Grab all cards
@@ -22,7 +24,7 @@ function sortRoster(containerId, criteria, direction) {
     // Grab the fixed end of the grid
     const fixedcard = grid.querySelector('.endcard');
 
-    // Sort the cards based on the chosen criteria
+    // Sort non-fixed cards based on the chosen criteria
     cards.sort((a, b) => {
         let valA = a.getAttribute(`data-${criteria}`).toLowerCase();
         let valB = b.getAttribute(`data-${criteria}`).toLowerCase();
@@ -38,7 +40,7 @@ function sortRoster(containerId, criteria, direction) {
     // Re-append the sorted cards back into the grid
     cards.forEach(card => grid.appendChild(card));
 
-    // Always re-append the end so it never moves
+    // Always re-append the end last so it never moves
     if (fixedcard) {
         grid.appendChild(fixedcard);
     }
