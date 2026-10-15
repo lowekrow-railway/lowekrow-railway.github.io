@@ -5,17 +5,19 @@ body {
 
 h1 {
     color: #FFDA56;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
+    font-family: 'Times New Roman', serif;
 }
 h2 {
     background-color: #A02E2B;
     border: 2.5px solid #FFDA56;
     color: #ffffff;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
     font-size: 175%;
     text-decoration: underline;
+    font-family: 'Times New Roman', serif;
 }
 h6 {
     color: #FFDA56;
@@ -28,6 +30,7 @@ h6 {
     width: 250px; 
     height: 75px; 
     text-align: center;
+    font-family: 'Times New Roman', serif;
 }
 
 p {
@@ -35,17 +38,20 @@ p {
     padding: 5px;
     margin: 5px;
     font-size: 150%;
+    font-family: 'Times New Roman', serif;
 }
 
 table {
     table-layout: fixed;
-    border-collapse: separate; 
+    border-collapse: separate;
+    font-family: 'Times New Roman', serif;
 }
 th, td {
     padding: 15px;
     margin: 15px;
     justify-content: center;
     align-items: center;
+    font-family: 'Times New Roman', serif;
 }
 
 button {
@@ -61,31 +67,37 @@ button {
     max-width: 250px; 
     white-space: nowrap;
     text-align: center;
+    font-family: 'Times New Roman', serif;
 }
 button:hover {
     background-color: #A02E2B; 
     color: #ffffff;
+    font-family: 'Times New Roman', serif;
 }
 
 a:link {
     color: #FFDA56;
     background-color: transparent;
     text-decoration: none;
+    font-family: 'Times New Roman', serif;
 }
 a:visited {
     color: #FFDA56;
     background-color: transparent;
     text-decoration: none;
+    font-family: 'Times New Roman', serif;
 }
 a:hover {
     color: #FFDA56;
     background-color: transparent;
     text-decoration: underline;
+    font-family: 'Times New Roman', serif;
 }
 a:active {
     color: #111111;
     background-color: transparent;
     text-decoration: underline;
+    font-family: 'Times New Roman', serif;
 }
 
 .rightfloat {
