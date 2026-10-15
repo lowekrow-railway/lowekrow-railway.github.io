@@ -20,7 +20,7 @@ h6 {
     background-color:#111111;
     border: 5px solid #FFDA56;
     container-type: inline-size; 
-    font-size: 16px;
+    font-size: 28px;
     line-height: 24px;
     overflow-wrap: break-word; 
     width: 250px; 
@@ -47,6 +47,7 @@ th, td {
 }
 
 button {
+    flex: 1 1 180px;
     background-color: #111111; 
     border: 5px solid #FFDA56;
     color: #FFDA56;
