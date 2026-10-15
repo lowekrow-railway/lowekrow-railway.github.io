@@ -129,9 +129,6 @@ a:active {
     padding: 5px;
     overflow-y: auto; 
 }
-.container div {
-    padding: 10px;
-}
 .container div.header {
     grid-area: header;
     text-align: center;
