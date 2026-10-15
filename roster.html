@@ -6,7 +6,7 @@
 </head>
 <body>
 
-    <script src="/scripts/gridloaders/enginerostergridloader.js" defer></script>
+    <script src="/scripts/gridloaders/rostergridloaderandsorter.js" defer></script>
 
     <title>Roster - The Lowekrow Railway</title>
 
@@ -32,7 +32,7 @@
     <div class="acenter" style="min-height: 100px;">
         <img src="/images/ANIMATEDLW.gif" style="width:48px; height:48px;"><img>
         <img src="/images/ANIMATEDBW.gif" style="width:48px; height:48px;"><img>
-        <h1 style="font-size: 250%;">The Entire Lowekrow Engine Roster!</h1>
+        <h1 style="font-size: 250%;">The Engine Roster!</h1>
         <img src="/images/ANIMATEDBW.gif" style="width:48px; height:48px;"><img>
         <img src="/images/ANIMATEDLW.gif" style="width:48px; height:48px;"><img>
     </div>
@@ -50,9 +50,38 @@
         
     <div class="container" style="height: 550px; background-color:#FFDA56; border: 5px solid #111111; grid-template-areas:'content'; grid-template-columns: 1fr;">
         <div class="content" style="background-color:#A02E2B; border: 5px solid #111111;">
-            <div class="container" id="engineroster" style="background-color:#111111; grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));" 
+            <div class="container" style="background-color:#111111; grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));" 
             data-source="./tables&grids/enginerostergrid.html"
             data-containerId="engineroster"
+            >
+            </div>
+        </div>
+    </div>
+
+    <div class="acenter" style="min-height: 100px;">
+        <img src="/images/ANIMATEDLW.gif" style="width:48px; height:48px;"><img>
+        <img src="/images/ANIMATEDBW.gif" style="width:48px; height:48px;"><img>
+        <h1 style="font-size: 250%;">The Rolling Stock Roster!</h1>
+        <img src="/images/ANIMATEDBW.gif" style="width:48px; height:48px;"><img>
+        <img src="/images/ANIMATEDLW.gif" style="width:48px; height:48px;"><img>
+    </div>
+
+    <div class="hcenter" style="min-height: 100px;">
+        <div class="vcenter" style="min-height: 100px;">
+            <h1 style="color: #FFDA56;">Sort By:</h1>
+            <button class="acenter" onclick="sortRoster('stockroster', 'name', 'asc')">Name (A-Z)</button>
+            <button class="acenter" onclick="sortRoster('stockroster', 'name', 'desc')">Name (Z-A)</button>
+            <button class="acenter" onclick="sortRoster('stockroster', 'origin', 'asc')">Origin (A-Z)</button>
+            <button class="acenter" onclick="sortRoster('stockroster', 'origin', 'desc')">Origin (Z-A)</button>
+            <button class="acenter" onclick="sortRoster('stockroster', 'wheels', 'asc')">Wheel Config</button>
+        </div>
+    </div>
+        
+    <div class="container" style="height: 550px; background-color:#FFDA56; border: 5px solid #111111; grid-template-areas:'content'; grid-template-columns: 1fr;">
+        <div class="content" style="background-color:#A02E2B; border: 5px solid #111111;">
+            <div class="container" style="background-color:#111111; grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));" 
+            data-source="./tables&grids/stockrostergrid.html"
+            data-containerId="stockroster"
             >
             </div>
         </div>
