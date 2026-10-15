@@ -47,7 +47,7 @@ th, td {
 
 button {
     color: #FFDA56;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
     background-color: #111111; 
     border: 5px solid #FFDA56;
@@ -63,7 +63,7 @@ button:hover {
     background-color: #A02E2B; 
     color: #ffffff;
 }
-.button:active {
+button:active {
     background-color: #A02E2B; 
     color: #ffffff;
 }
