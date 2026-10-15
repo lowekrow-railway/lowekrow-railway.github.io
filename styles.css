@@ -151,3 +151,11 @@ a:active {
     background-color: #A02E2B; 
     border: 5px solid #FFDA56;
 }
+.griddetailtitle {
+    font-size: 20px;
+    border: 2.5px solid #FFDA56;
+}
+.griddetail {
+    font-size: 16px;
+    overflow-wrap: break-word;
+}
