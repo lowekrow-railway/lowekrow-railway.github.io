@@ -1,11 +1,15 @@
 // Fetch the separate grid contents file
-fetch(source)
-.then(response => response.text())
-.then(data => {
-  document.getElementById(containerId).innerHTML = data;
+document.querySelectorAll('[data-source]').forEach(container => {
+    const source = container.getAttribute('data-source');
+    const containerId = container.id;
+    fetch(source)
+    .then(response => response.text())
+    .then(data => {
+    document.getElementById(containerId).innerHTML = data;
 
-  // Call immediately after the grid content loads to sort by name on initialization
-    sortRoster(containerId, 'name', 'asc');
+    // Call immediately after the grid content loads to sort by name on initialization
+        sortRoster(containerId, 'name', 'asc');
+    });
 });
 
 function sortRoster(containerId, criteria, direction) {
