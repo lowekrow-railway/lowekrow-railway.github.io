@@ -47,7 +47,8 @@ th, td {
 
 button {
     color: #FFDA56;
-    margin: 10px;
+    padding: 10px;
+    margin: 5px;
     background-color: #111111; 
     border: 5px solid #FFDA56;
     font-size: clamp(75%, 150%, 225%);
