@@ -1,15 +1,15 @@
 // Fetch the separate grid contents file
-fetch('./tables&grids/enginerostergrid.html')
+fetch(source)
 .then(response => response.text())
 .then(data => {
-  document.getElementById('engineroster').innerHTML = data;
+  document.getElementById(containerId).innerHTML = data;
 
   // Call immediately after the grid content loads to sort by name on initialization
-    sortRoster('name', 'asc');
+    sortRoster(containerId, 'name', 'asc');
 });
 
-function sortRoster(criteria, direction) {
-    const grid = document.getElementById('engineroster');
+function sortRoster(containerId, criteria, direction) {
+    const grid = document.getElementById(containerId);
     
     // Grab all cards
     const cards = Array.from(grid.querySelectorAll('.gridcard'));
@@ -30,7 +30,7 @@ function sortRoster(criteria, direction) {
     // Clear the grid container temporarily
     grid.innerHTML = '';
 
-    // Re-append the sorted engine cards back into the grid
+    // Re-append the sorted cards back into the grid
     cards.forEach(card => grid.appendChild(card));
 
     // Always re-append the end so it never moves
