@@ -16,22 +16,15 @@ h2 {
 }
 h6 {
     color: #FFDA56;
-    margin: 10px auto;
-    background-color: #111111;
+    margin: 10px;
+    background-color:#111111;
     border: 5px solid #FFDA56;
-    box-sizing: border-box;
-    font-size: clamp(18px, 4vw, 28px);
-    line-height: 1.2;
-    overflow-wrap: break-word;
-    width: 100%;
-    max-width: 250px;
-    min-height: 75px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    container-type: inline-size; 
+    font-size: clamp(75%, 150%, 225%);
+    overflow-wrap: break-word; 
+    width: 250px; 
+    height: 75px; 
     text-align: center;
-    padding: 5px 10px;
 }
 
 p {
