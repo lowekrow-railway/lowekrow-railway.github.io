@@ -47,8 +47,8 @@ th, td {
 
 button {
     color: #FFDA56;
-    padding: 15px;
-    margin: 15px;
+    padding: 5px;
+    margin: 5px;
     background-color: #111111; 
     border: 2.5px solid #FFDA56;
     font-size: clamp(75%, 150%, 225%);
@@ -59,7 +59,7 @@ button {
     white-space: nowrap;
     text-align: center;
 }
-.active, button:hover {
+button:hover {
     background-color: #A02E2B; 
     color: #ffffff;
 }
