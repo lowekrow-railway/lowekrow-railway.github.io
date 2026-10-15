@@ -55,7 +55,7 @@ button {
     font-size: clamp(1.25rem, 1.50rem, 1.75rem);
     transition-duration: 0.5s;
     flex: 1; 
-    min-width: 100px; 
+    min-width: 0px; 
     max-width: 300px; 
     white-space: nowrap;
 }
