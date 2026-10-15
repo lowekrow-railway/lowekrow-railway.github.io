@@ -46,17 +46,17 @@ th, td {
 }
 
 button {
+    color: #FFDA56;
+    margin: 10px;
     background-color: #111111; 
     border: 5px solid #FFDA56;
-    color: #FFDA56;
-    padding: 5px;
-    margin: 5px;
-    font-size: clamp(75%, 150%, 225%);;
+    font-size: clamp(75%, 150%, 225%);
     transition-duration: 0.5s;
     flex: 1; 
     min-width: 125px; 
     max-width: 250px; 
     white-space: nowrap;
+    text-align: center;
 }
 button:hover {
     background-color: #A02E2B; 
