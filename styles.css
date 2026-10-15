@@ -46,7 +46,6 @@ th, td {
 }
 
 button {
-    box-sizing: border-box;
     background-color: #111111; 
     border: 5px solid #FFDA56;
     color: #FFDA56;
