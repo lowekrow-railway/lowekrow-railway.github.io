@@ -16,16 +16,22 @@ h2 {
 }
 h6 {
     color: #FFDA56;
-    margin: 10px;
-    background-color:#111111;
+    margin: 10px auto;
+    background-color: #111111;
     border: 5px solid #FFDA56;
-    container-type: inline-size; 
-    font-size: 28px;
-    line-height: 24px;
-    overflow-wrap: break-word; 
-    width: 250px; 
-    height: 75px; 
+    box-sizing: border-box;
+    font-size: clamp(18px, 4vw, 28px);
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    width: 100%;
+    max-width: 250px;
+    min-height: 75px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    padding: 5px 10px;
 }
 
 p {
@@ -54,6 +60,10 @@ button {
     margin: 5px;
     font-size: clamp(1.25rem, 1.50rem, 1.75rem);
     transition-duration: 0.5s;
+    flex: 1; 
+    min-width: 130px; 
+    max-width: 225px; 
+    white-space: nowrap;
 }
 button:hover {
     background-color: #A02E2B; 
