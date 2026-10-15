@@ -5,16 +5,19 @@ fetch('./tables&grids/enginerostergrid.html')
   document.getElementById('engineroster').innerHTML = data;
 });
 
+    // Call immediately after the grid content loads to sort by name on initialization
+    sortRoster('name', 'asc');
+
 function sortRoster(criteria, direction) {
     const grid = document.getElementById('engineroster');
     
-    // Grab all grid cards
+    // Grab all cards
     const cards = Array.from(grid.querySelectorAll('.gridcard'));
     
     // Grab the fixed end of the grid
     const fixedcard = grid.querySelector('.endcard');
 
-    // Sort the engine cards array based on the chosen criteria
+    // Sort the cards based on the chosen criteria
     cards.sort((a, b) => {
         let valA = a.getAttribute(`data-${criteria}`).toLowerCase();
         let valB = b.getAttribute(`data-${criteria}`).toLowerCase();
