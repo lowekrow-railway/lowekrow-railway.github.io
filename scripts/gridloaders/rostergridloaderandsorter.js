@@ -2,6 +2,7 @@
 document.querySelectorAll('[data-source]').forEach(container => {
     const source = container.getAttribute('data-source');
     const containerId = container.id;
+    
     fetch(source)
     .then(response => response.text())
     .then(data => {
