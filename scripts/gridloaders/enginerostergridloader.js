@@ -5,9 +5,6 @@ fetch('./tables&grids/enginerostergrid.html')
   document.getElementById('engineroster').innerHTML = data;
 });
 
-    // Call immediately after the grid content loads to sort by name on initialization
-    sortRoster('name', 'asc');
-
 function sortRoster(criteria, direction) {
     const grid = document.getElementById('engineroster');
     
@@ -38,3 +35,6 @@ function sortRoster(criteria, direction) {
         grid.appendChild(fixedcard);
     }
 }
+    
+// Call immediately after the grid content loads to sort by name on initialization
+sortRoster('name', 'asc');
