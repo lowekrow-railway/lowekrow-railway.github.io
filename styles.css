@@ -47,14 +47,14 @@ th, td {
 
 button {
     color: #FFDA56;
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
     background-color: #111111; 
     border: 2.5px solid #FFDA56;
-    font-size: clamp(75%, 150%, 225%);
+    font-size: clamp(75%, 125%, 225%);
     transition-duration: 0.5s;
     flex: 1; 
-    min-width: 125px; 
+    min-width: 150px; 
     max-width: 250px; 
     white-space: nowrap;
     text-align: center;
