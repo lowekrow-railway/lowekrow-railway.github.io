@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+</head>
+<body>
+
+    <script src="../scripts/gridload&sort.js" defer></script>
+
+    <title>Engines - The Lowekrow Railway</title>
+
+    <div style="background-color:#111111">
+        <div class="vcenter" style="min-height: 150px; border: 5px solid #FFDA56;">
+            <a href="../rosters/index.html"><h1 style="font-size: 350%;">Go Back!</h1></a>
+            <div class="rightfloat">
+                <a href="./engines.html"><h1 style="font-size: 250%;">Engines &#8594;</h1></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="acenter" style="min-height: 100px;">
+        <img src="/images/ANIMATEDLW.gif" style="width:48px; height:48px;"><img>
+        <img src="/images/ANIMATEDBW.gif" style="width:48px; height:48px;"><img>
+        <h1 style="font-size: 250%;">The Rolling Stock Roster!</h1>
+        <img src="/images/ANIMATEDBW.gif" style="width:48px; height:48px;"><img>
+        <img src="/images/ANIMATEDLW.gif" style="width:48px; height:48px;"><img>
+    </div>
+
+    <div class="hcenter" style="min-height: 100px;">
+        <div class="vcenter" style="min-height: 100px;">
+            <h1 style="color: #FFDA56;">Sort By:</h1>
+            <button class="acenter" onclick="sortGrid('engineroster', 'name', 'asc')">Name (A-Z)</button>
+            <button class="acenter" onclick="sortGrid('engineroster', 'name', 'desc')">Name (Z-A)</button>
+            <button class="acenter" onclick="sortGrid('engineroster', 'origin', 'asc')">Origin (A-Z)</button>
+            <button class="acenter" onclick="sortGrid('engineroster', 'origin', 'desc')">Origin (Z-A)</button>
+            <button class="acenter" onclick="sortGrid('engineroster', 'wheels', 'asc')">Wheel Config</button>
+        </div>
+    </div>
+        
+    <div class="container" style="height: 550px; background-color:#FFDA56; border: 5px solid #111111; grid-template-areas:'content'; grid-template-columns: 1fr;">
+        <div class="content" style="background-color:#A02E2B; border: 5px solid #111111;">
+            <div class="container" id="engineroster" style="background-color:#111111; grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));" 
+            data-source="../tables&grids/stockrostergrid.html"
+            data-containerId="engineroster"
+            >
+            </div>
+        </div>
+    </div>
+
+    <p>This website is a work in progress.</p>
+
+</body>
+</html>
