@@ -30,19 +30,18 @@
     <div class="hcenter" style="min-height: 100px;">
         <div class="vcenter" style="min-height: 100px;">
             <h1 style="color: #FFDA56;">Sort By:</h1>
-            <button class="acenter" onclick="sortGrid('engineroster', 'name', 'asc')">Name (A-Z)</button>
-            <button class="acenter" onclick="sortGrid('engineroster', 'name', 'desc')">Name (Z-A)</button>
-            <button class="acenter" onclick="sortGrid('engineroster', 'origin', 'asc')">Origin (A-Z)</button>
-            <button class="acenter" onclick="sortGrid('engineroster', 'origin', 'desc')">Origin (Z-A)</button>
-            <button class="acenter" onclick="sortGrid('engineroster', 'wheels', 'asc')">Wheel Config</button>
+            <button class="acenter" onclick="sortGrid('stockroster', 'name', 'asc')">Name (A-Z)</button>
+            <button class="acenter" onclick="sortGrid('stockroster', 'name', 'desc')">Name (Z-A)</button>
+            <button class="acenter" onclick="sortGrid('stockroster', 'origin', 'asc')">Origin (A-Z)</button>
+            <button class="acenter" onclick="sortGrid('stockroster', 'origin', 'desc')">Origin (Z-A)</button>
+            <button class="acenter" onclick="sortGrid('stockroster', 'wheels', 'asc')">Wheel Config</button>
         </div>
     </div>
         
     <div class="container" style="height: 550px; background-color:#FFDA56; border: 5px solid #111111; grid-template-areas:'content'; grid-template-columns: 1fr;">
         <div class="content" style="background-color:#A02E2B; border: 5px solid #111111;">
-            <div class="container" id="engineroster" style="background-color:#111111; grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));" 
+            <div class="container" id="stockroster style="background-color:#111111; grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));" 
             data-source="../tables&grids/stockrostergrid.html"
-            data-containerId="engineroster"
             >
             </div>
         </div>
